@@ -17,13 +17,6 @@ const __dirname = dirname(__filename);
 
 // Váš stávající Firebase konfigurační objekt
 const firebaseConfig = {
-    apiKey: "AIzaSyDHwvn6z1b0Hl7lKTCDIa9bRzFNkMKhN0U",
-    authDomain: "inspired-berm-460713-t6.firebaseapp.com",
-    projectId: "inspired-berm-460713-t6",
-    storageBucket: "inspired-berm-460713-t6.firebasestorage.app",
-    messagingSenderId: "67985739597",
-    appId: "1:67985739597:web:1ffac27c3e99a4de783104",
-    measurementId: "G-4LQFHVHMYN"
 };
 
 // Inicializace Firebase služeb
