@@ -40,17 +40,16 @@ firebase help
 firebase help <příkaz>: firebase help deploy
 ```
 --------
-Důležité soubory projektu:
+**Důležité soubory projektu:**
 - firebase.json: Hlavní konfigurace pro nasazení a chování služeb. Klíčové pro Hosting.
 - .firebaserc: Určuje, ke kterému projektu se připojujete.
 
-Pravidlové soubory
-.................
+**Pravidlové soubory**
 - firestore.rules
 - storage.rules
 
 - firestore.indexes.json (Soubor pro definování indexů pro vaši databázi Cloud Firestore.)
 
-Pozn:
-- (CLI) npm install -g firebase-tools,	Pro správu a nasazení Firebase projektu z vašeho terminálu.
-- (SDK) npm install firebase				Pro integraci Firebase služeb do kódu vaší aplikace
+**Pozn:**
+- (CLI) **npm install -g firebase-tools**	Pro správu a nasazení Firebase projektu z vašeho terminálu.
+- (SDK) **npm install firebase**				Pro integraci Firebase služeb do kódu vaší aplikace
