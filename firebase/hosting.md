@@ -14,7 +14,15 @@ firebase login
 firebase logout
 
 firebase init
-
+  Are you ready to proceed? Yes
+  Which Firebase features: Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+                           Plus další (pokud nutné)
+  Use an existing project
+  What do you want to use as your public directory? .
+  Configure as a single-page app (rewrite all urls to /index.html)? y
+  Set up automatic builds and deploys with GitHub? n
+  File ./index.html already exists. Overwrite? n
+  
 firebase deploy (deploy všeho)
 firebase deploy --only hosting
 --only hosting Doporučuje se použít tento příznak, pokud chcete nasadit pouze Hosting. Tím se vyhnete nechtěnému nasazení změn v jiných částech vašeho Firebase projektu (např. Cloud Functions, pokud je máte, ale nechcete je aktualizovat).
